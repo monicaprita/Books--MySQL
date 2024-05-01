@@ -145,7 +145,7 @@ select count(*) from carti;
 select *from Carti group by Titlu, An_publicare;
 
 
-select min(An_publicare), ID_editura -- am selectat in fucntie de id-ul editurii minimul anului publicatiei
+select min(An_publicare), ID_editura -- am selectat in functie de id-ul editurii minimul anului publicatiei
 from Carti
 group by ID_editura;
 
