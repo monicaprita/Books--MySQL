@@ -93,7 +93,7 @@ In order to simulate various scenarios that might happen in real life I created 
 
   select *from Carti group by Titlu, An_publicare;
 
-  select min(An_publicare), ID_editura -- am selectat in fucntie de id-ul editurii minimul anului publicatiei from Carti group by ID_editura;
+  select min(An_publicare), ID_editura from Carti group by ID_editura;
 
   select *from Carti order by An_publicare;
 
